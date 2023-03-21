@@ -1,3 +1,7 @@
 link of the video from where I referred - https://youtu.be/BCQHnlnPusY
+Git is a version control.
+Github is a website where you can do projects that have version control on them.
+
 Repository - A github repository is another word for a project. IT can have multiple files associated with it.
 Commit - It is another word for "save".
+Commit hash - Unique identifier associated with a commit.
