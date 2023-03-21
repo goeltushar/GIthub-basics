@@ -1,0 +1,2 @@
+Repository - A github repository is another word for a project. IT can have multiple files associated with it.
+Commit - It is another word for "save".
