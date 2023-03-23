@@ -10,3 +10,7 @@ Commit hash - Unique identifier associated with a commit.
 link of the video from where I referred - https://youtu.be/oPpnCh7InLY
 Branches
 Pull request - Take some changes from a particular branch and bring them into another branch
+
+3rd video - https://youtu.be/_NrSWLQsDL4
+Fork - Takinh entire other instance of repo and just having it under your account
+Pull request - sending the code to the original repository
