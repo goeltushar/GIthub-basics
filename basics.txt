@@ -11,16 +11,16 @@ link of the video from where I referred - https://youtu.be/oPpnCh7InLY
 Branches
 Pull request - Take some changes from a particular branch and bring them into another branch
 
-3rd video - https://youtu.be/_NrSWLQsDL4
+1.3-3rd video - https://youtu.be/_NrSWLQsDL4
 Fork - Takinh entire other instance of repo and just having it under your account
 Pull request - sending the code to the original repository
 
-4th video - Linux commands - https://youtu.be/oK8EvVeVltE
+1.5 - 5th video - Linux commands - https://youtu.be/oK8EvVeVltE
 cd- change directory
 ls- lists the contents of current working directory
 pwd- print working directory
 
-5th video - https://youtu.be/yXT1ElMEkW8
+1.6 - 6th video - https://youtu.be/yXT1ElMEkW8
 Git Commands :
 git config --list
 git status
@@ -28,3 +28,19 @@ git commit
 git log
 git remote : It lists all the remotes
 git remote -v : -v means verbose and it displays the information about the remotes
+
+1.7 - 7th video - https://youtu.be/9p2d-CuVlgc
+In this video lecture we will learn about how to turn a project into a git repository and then put the git repository on github.
+SO basically we have a project locally in our system. For example in VSCode or any text editor, and now we want to put that project in github, so below are the steps to achieve this -
+git init : it will turn a project to a git repository
+git add : this is used to stage
+git commit -m "Code is ready to push" : it saves the changes locally in your system
+git push orgin dev
+//This will give an error saying origin doesn't appear in git repository. This is because if my repository started on github and I brought it down to my computer a remote is already been attached to it, but if you are starting your repository on your computer it doesn't have a remote associated with it.
+So now go to github and create a new repository. After this come back to terminal and write
+git remote add origin <url of your repository>
+Now if you will write git remote or git remote -v, you will see a remote with the name origin
+So now to push the code
+git push origin main
+
+ 
