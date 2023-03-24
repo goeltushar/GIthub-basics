@@ -14,3 +14,17 @@ Pull request - Take some changes from a particular branch and bring them into an
 3rd video - https://youtu.be/_NrSWLQsDL4
 Fork - Takinh entire other instance of repo and just having it under your account
 Pull request - sending the code to the original repository
+
+4th video - Linux commands - https://youtu.be/oK8EvVeVltE
+cd- change directory
+ls- lists the contents of current working directory
+pwd- print working directory
+
+5th video - https://youtu.be/yXT1ElMEkW8
+Git Commands :
+git config --list
+git status
+git commit
+git log
+git remote : It lists all the remotes
+git remote -v : -v means verbose and it displays the information about the remotes
