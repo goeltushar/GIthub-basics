@@ -44,3 +44,5 @@ So now to push the code
 git push origin main
 
  
+1.8 - 8th video - https://youtu.be/bFVtrlyH-kc
+GIthub pages- to host a staic website. Hosting is not possible cause github doesn't has a server. Azure or heruko has a server
