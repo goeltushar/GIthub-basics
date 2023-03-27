@@ -79,3 +79,19 @@ git pull origin <branch-name>
 
 And to pull changes from a different remote, you would use the following command:
 git pull my-remote <branch-name>
+
+
+Pull changes from upstream
+ Two ways:
+   1st way:
+          git checkout feature/gitTest // THis command is used to move to a particular branch
+          git fetch upstream gitTest1
+          git merge upstream/gitTest1
+          git push origin feature/gitTest
+      //This method is not recommended because it might give us merge conflicts
+      
+   2nd way:
+         git checkout -b feature/feature-name upstream/feature/feature-name
+        git push origin feature/feature-name
+      //THis will not give merge conflicts. So we should use this method
+     why this will not give merge conflicts?
