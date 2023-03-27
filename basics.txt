@@ -58,4 +58,24 @@ To create a new branch
 And that's it! You have now created a new branch in Git. You can make changes to this branch and commit them just like you would on the master branch. When you're ready to merge the changes from this branch back into the master branch, you can use the git merge command.
 
 
+What are remotes :
+In Git, a remote is a repository that is hosted on a different server than your local repository. You can use remotes to collaborate with others on the same codebase, or to keep a backup copy of your repository on a remote server.
 
+When you clone a repository, Git automatically creates a remote named "origin" that points to the original repository you cloned from. You can use the git remote command to see a list of all the remotes associated with your repository:
+git remote -v
+This will show you the names and URLs of all the remotes associated with your repository. By default, the origin remote is the one that you will be pushing and pulling changes to and from.
+
+You can also add new remotes to your repository using the git remote add command. For example, to add a new remote named "my-remote" with the URL "https://github.com/my-username/my-repo.git", you would use the following command:
+git remote add my-remote https://github.com/my-username/my-repo.git
+
+Once you have added a remote, you can push your changes to that remote using the git push command. For example, to push your changes to the origin remote, you would use the following command:
+git push origin <branch-name>
+
+And to push your changes to a different remote, you would use the following command:
+git push my-remote <branch-name>
+
+Similarly, you can pull changes from a remote using the git pull command. For example, to pull changes from the origin remote, you would use the following command:
+git pull origin <branch-name>
+
+And to pull changes from a different remote, you would use the following command:
+git pull my-remote <branch-name>
