@@ -46,3 +46,16 @@ git push origin main
  
 1.8 - 8th video - https://youtu.be/bFVtrlyH-kc
 GIthub pages- to host a staic website. Hosting is not possible cause github doesn't has a server. Azure or heruko has a server
+
+
+To create a new branch 
+ Two ways :
+    1st way:
+            git branch branchName
+            git checkout new-feature
+    2nd way:
+            git checkout -b new-feature
+And that's it! You have now created a new branch in Git. You can make changes to this branch and commit them just like you would on the master branch. When you're ready to merge the changes from this branch back into the master branch, you can use the git merge command.
+
+
+
