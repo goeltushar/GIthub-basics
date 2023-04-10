@@ -101,3 +101,5 @@ Pull changes from upstream
   
   
   q. if you made changes to code, at the time of pushing you have to pull the code from upstream.And in this if somebody made changes in upstream. so how to pull in this case. if we try method 2 new branch will be created and the chnages which we made will not be there
+  
+  chatgpt - https://chat.openai.com/chat/8ceaf872-426e-4683-8e1d-409c0e85b0d3
